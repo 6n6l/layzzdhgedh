@@ -34,4 +34,4 @@ client.on('message', message => {
 
 
 
-client.login('NDY4NTAzMzY2MDc1NDE2NTg2.XadnMg.L_0IKdMK79kUO-rRwjpn5uuJ11k')
+client.login(process.env.KEY)
