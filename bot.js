@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const { RichEmbed } = require('discord.js');
 const prefix = '#'
+//Created by TheBeatz#5170
 
 
 client.on('ready', () => {
@@ -14,6 +15,7 @@ client.user.setGame('#دعوة')
 client.on('message', message => {
 
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
+//Created by TheBeatz#5170
 
     const person1 = args[1]
     const person12 = args[2]
@@ -33,6 +35,7 @@ client.on('message', message => {
         .catch(console.error);
          }});
 
+//Created by TheBeatz#5170
 
 client.on('message', message => {
     if(message.content === prefix + 'دعوة') {
@@ -46,6 +49,7 @@ client.on('message', message => {
 })
 
 
+//Created by TheBeatz#5170
 
 
 client.login(process.env.KEY)
