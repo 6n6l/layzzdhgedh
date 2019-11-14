@@ -7,7 +7,7 @@ const prefix = '#'
 
 client.on('ready', () => {
 console.log('Online')
-client.user.setGame('#دعوة')
+client.user.setGame('Made with ♥ by TheBeatz')
 })
 
 
