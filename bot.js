@@ -28,7 +28,7 @@ client.on('message', message => {
         const embed = new RichEmbed()
         .setColor("#ffb6c1")
         .addField(` ${args[1]} و ${args[2]} نسبة حبكما هي: 💓`,
-        `||${Math.floor(love)} %  ♥||`)
+        `${Math.floor(love)} %  ♥`)
         .setTimestamp()
         .setFooter('Version 1.1 | Made with ♥ by TheBeatz')
         message.channel.send(embed).then(sentMessage => sentMessage.react('♥'))
